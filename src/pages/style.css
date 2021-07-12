@@ -1,0 +1,86 @@
+.outer-img{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    background:url('../images/brain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
+    width:50%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.aboutus-img{
+    background:url('../images/aboutusvector.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
+    width:45%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.aboutus-text{
+    font-size:20px;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-div{
+    width:50%;
+    height: 70vh;
+    flex-direction: column;
+    margin-top: 90px;
+    padding: 30px;
+
+}
+.container{
+    background-color: #eceff1;
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 150px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#outlined-basic{
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    margin-top: 30px;
+    padding: 30px; 
+}
+
+@font-face {
+    font-family: 'dancing-script';
+    src: local('dancing-script'), url(../fonts/DancingScript-VariableFont_wght.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.inner-about-us{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+}  
