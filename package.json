@@ -1,5 +1,5 @@
 {
-  "name": "tumor-segmentation",
+  "name": "click_fraud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

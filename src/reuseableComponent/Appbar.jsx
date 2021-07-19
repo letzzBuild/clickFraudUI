@@ -114,11 +114,11 @@ export default function Appbar({history}) {
     <div className={classes.grow}>
       <AppBar 
       position="static"
-      style={{ backgroundColor: '#ab47bc' }}>
+      style={{ backgroundColor: '#3f37c9' }}>
         <Toolbar>
 
           <Typography className={classes.title} variant="h6" noWrap>
-            Brain Tumor Detection
+            Ad Click Fraud Detection
           </Typography>
           
           <div className={classes.grow} />

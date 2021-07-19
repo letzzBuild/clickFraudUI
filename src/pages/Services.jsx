@@ -32,7 +32,7 @@ export default function Services(){
      e.preventDefault()
      var formdata = new FormData()
      formdata.append(
-         "mri", image
+         "result_file", image
      )
      axios.post("http://127.0.0.1:8000/app/detect/",formdata).then((res)=>{
           setoutputimage("")
@@ -53,7 +53,7 @@ export default function Services(){
             <Appbar></Appbar>
             <center>
             <div className='container'>
-            <h1>Upload MRI Scan Image</h1>
+            <h1>Upload The Trained File</h1>
             <TextField id="outlined-basic" required variant="outlined" type='file'
             onChange={changeHandler}
            />
@@ -71,7 +71,7 @@ export default function Services(){
         {showOutput ? <div>
             <center>
                  <h6>{console.log(outputimage)}</h6>
-                <h1>Segmented Output Image</h1>
+                <h1>Scatter Plot of Genuine and Not Genuine Clicks</h1>
                 <img width={700} height={400} src={outputimage+`?${random}`} alt="not found"/>
             </center>
             </div>  : ""  
